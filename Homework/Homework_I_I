@@ -2,7 +2,7 @@
 	<daily-routines>
 		<food-and-water-bowl-location>
 		<eating-times>
-			<breakfast,lunch,dinner>
+			<breakfast_lunch_dinner>
 		</eating-times>
 		<sleeping-spot>
 			<crate>

@@ -1,0 +1,42 @@
+h1{
+	font-family: "futura";
+	color:#;
+	background-color:tomato;
+	text-decoration:underline;
+	margin:30px;
+
+}
+
+#second-header{
+	color:#FFF;
+	font-size: 20px;
+	text-decoration: none;
+	margin: 0px;
+
+	
+
+}
+
+h2{
+	font-family: "raleway";
+	
+}
+
+body{
+	background-color: tomato;
+	padding:30px;
+}
+
+p{
+	font-style: italic;
+}
+
+a{
+	font-style: normal;
+	color: #000;
+
+}
+
+a:hover{
+	color:#FFF;
+}

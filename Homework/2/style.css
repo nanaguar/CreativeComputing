@@ -1,0 +1,75 @@
+h1{
+	font-family: "futura";
+	color: #80ced6;
+	text-align: center;
+
+}
+
+body{
+	background-color: #d5f4e6;
+	padding:30px;
+}
+
+p{
+	font-family: "Gill Sans";
+	color: #618685;
+	text-align: center;
+	font-weight: lighter;
+
+}
+
+img{
+	display: block;
+    margin: auto;
+    width: 40%;
+}
+
+a{
+	font-style: normal;
+	color: #618685;
+
+}
+
+a:hover{
+	color: #80ced6;
+	font-weight: normal;
+
+}
+
+
+#first-header{
+	border: 3px solid #618685;
+	 -webkit-align-content: center;
+    align-content: center;
+}
+
+#ending2{
+	border:3px solid #fefbd8;
+	border-style: groove;
+}
+
+#ending1{
+	border:3px solid #fefbd8;
+	border-style: groove;
+}
+
+#back1{
+	color: #80ced6;
+	font-weight: bold; 
+	font-family: "futura";
+
+}
+
+#back2{
+	color: #80ced6;
+	font-weight: bold; 
+	font-family: "futura";
+	
+}
+
+#real{
+	font-style: italic;
+	font-weight: bold; 
+	color: #80ced6;
+
+}

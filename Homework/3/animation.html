@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<style>
+	html, body{
+		margin:0px;
+		width:100%;
+		height:100%;
+		background-color: #d3d3d3;
+		}
+	#rectangle{
+		background-color: #FF8C00;
+		width: 40vmin;
+		height: 80vmin;
+		margin: 10vmin;
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-start;
+		}
+	.swatch{
+		position: absolute;
+		top: 35%;
+		left: 55%;
+		width: 300px;
+		height: 150px;
+		}
+	.yellow{
+		transform-origin: 0% 0%;
+		background-color: #FFFF99;
+		}
+	.swatch2{
+		position: absolute;
+		top: 60%;
+		left: 55%;
+		width: 300px;
+		height: 150px;
+		}
+	.blue{
+		transform-origin: 0% 0%;
+		background-color: #afeeee;
+		}
+	.swatch3{
+		position: absolute;
+		top: 60%;
+		left: 55%;
+		width: 300px;
+		height: 75px;
+		}
+	.purple{
+		transform-origin: 0% 0%;
+		background-color: #9932CC;
+		}
+	.swatch4{
+		position: absolute;
+		top: 10%;
+		left: 10.2%;
+		width: 298.3px;
+		height: 50px;
+		}
+	.white{
+		transform-origin: 0% 0%;
+		background-color: #ffffff;
+		}
+	.swatch5{
+		position: absolute;
+		top: 10%;
+		right: 8.6%;
+		width: 298.3px;
+		height: 75px;
+		}
+	.lime{
+		transform-origin: 0% 0%;
+		background-color: #B2F187;
+		}
+	.swatch6{
+		position: absolute;
+		top: 45%;
+		left: 55%;
+		width: 300px;
+		height: 75px;
+		}
+	.burg{
+		transform-origin: 0% 0%;
+		background-color: #800020
+		}
+	.swatch7{
+		position: absolute;
+		top:90%;
+		left:85.7%;
+		width: 10%;
+		height: 10%;
+	}
+	.orchid{
+		transform-origin: 0% 0%;
+		background-color: #DA70D6
+	}
+
+	@keyframes myrotate{
+		50%{transform: rotateZ(90deg) scale(1.0, 0.1);}
+		100%{transform: initial;}
+		}
+	.rotate1{animation: myrotate 2s infinite;}
+
+	@keyframes drop{
+		50%{transform:translate(0px, 75px);}
+		100%{transform: initial;}
+		}
+	.drop{animation: drop 3s infinite;}
+
+	@keyframes drop2{
+		50%{transform:translate(0px, 548px);}
+		100%{transform: initial;}
+		}
+	.drop2{animation: drop2 6s infinite;}
+
+	@keyframes back{
+		50%{transform: translate(-330px, 0px);}
+		100%{transform: initial;}
+		}
+	.back{ animation: back 3s infinite; }
+
+	@keyframes raise{
+		75%{transform: rotateZ(90deg) scale(1.0,0.1);}
+		50%{transform: translate(0px, -261px);}
+		100%{transform: initial;}
+	}
+	.raise{ animation: raise 4s infinite}
+
+	@keyframes back2{
+		20%{transform: translate(-555.7px, 0px);}
+		40%{transform: translate(-555.7px, -600px);}
+		100%{transform: initial;}
+	}
+	.back2{ animation: back2 10s infinite }
+	</style>
+	</head>
+	<body>
+		<div id="rectangle"></div>
+		<div class="swatch blue back"></div>
+		<div class="swatch2 yellow"></div>
+		<div class="swatch3 purple drop"></div>
+		<div class="swatch4 white drop2"></div>
+		<div class="swatch5 lime rotate1"></div>
+		<div class="swatch6 burg raise"></div>
+		<div class="swatch7 orchid back2"
+	</body>
+	</html>	

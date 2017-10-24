@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html, body{
+	width:100%;
+	height:100%;
+	margin:0;
+}
+body{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color:  #8AEDFA
+}
+h1{
+	font-size: 15vmin;
+	font-family: "futura";
+	color: #F4951D
+}
+</style>
+</head>
+<h1 id="result"></h1>
+<script>
+
+var animal =   [
+      "aardvark",
+      "alligator",
+      "alpaca",
+      "antelope",
+      "ape",
+      "armadillo",
+      "baboon",
+      "badger",
+      "bat",
+      "bear",
+      "beaver",
+      "bison",
+      "boar",
+      "buffalo",
+      "bull",
+      "camel",
+      "canary",
+      "capybara",
+      "cat",
+      "chameleon",
+      "cheetah",
+      "chimpanzee",
+      "chinchilla",
+      "chipmunk",
+      "cougar",
+      "cow",
+      "coyote",
+      "crocodile",
+      "crow",
+      "deer",
+      "dingo",
+      "dog",
+      "donkey",
+      "dromedary",
+      "elephant",
+      "elk",
+      "ewe",
+      "ferret",
+      "finch",
+      "fish",
+      "fox",
+      "frog",
+      "gazelle",
+      "gila monster",
+      "giraffe",
+      "gnu",
+      "goat",
+      "gopher",
+      "gorilla",
+      "grizzly bear",
+      "ground hog",
+      "guinea pig",
+      "hamster",
+      "hedgehog",
+      "hippopotamus",
+      "hog",
+      "horse",
+      "hyena",
+      "ibex",
+      "iguana",
+      "impala",
+      "jackal",
+      "jaguar",
+      "kangaroo",
+      "koala",
+      "lamb",
+      "lemur",
+      "leopard",
+      "lion",
+      "lizard",
+      "llama",
+      "lynx",
+      "mandrill",
+      "marmoset",
+      "mink",
+      "mole",
+      "mongoose",
+      "monkey",
+      "moose",
+      "mountain goat",
+      "mouse",
+      "mule",
+      "muskrat",
+      "mustang",
+      "mynah bird",
+      "newt",
+      "ocelot",
+      "opossum",
+      "orangutan",
+      "oryx",
+      "otter",
+      "ox",
+      "panda",
+      "panther",
+      "parakeet",
+      "parrot",
+      "pig",
+      "platypus",
+      "polar bear",
+      "porcupine",
+      "porpoise",
+      "prairie dog",
+      "puma",
+      "rabbit",
+      "raccoon",
+      "ram",
+      "rat",
+      "reindeer",
+      "reptile",
+      "rhinoceros",
+      "salamander",
+      "seal",
+      "sheep",
+      "shrew",
+      "silver fox",
+      "skunk",
+      "sloth",
+      "snake",
+      "squirrel",
+      "tapir",
+      "tiger",
+      "toad",
+      "turtle",
+      "walrus",
+      "warthog",
+      "weasel",
+      "whale",
+      "wildcat",
+      "wolf",
+      "wolverine",
+      "wombat",
+      "woodchuck",
+      "yak",
+      "zebra"
+    ];
+
+var word = "ape"
+
+var phrase = "let's adopt a " + word;
+
+console.log("ape")
+
+console.log(Math.floor(Math.random()*134));
+
+var index = Math.floor(Math.random()*134);
+
+var word = animal[index];
+
+console.log(animal.length);
+
+document.getElementById("result").innerHTML = "let's adopt a " + word;
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+
+var colorsArray = ["blue", "hunter green", "blue"];
+var animals = ["dogs and cats", "cat", "african civet"];
+var food = ["steak", "katsudon", "tacos"];
+
+console.log(colorsArray[2]), animals[2], food[1];
+
+var nana = {
+	"color" : "blue", 
+	"animal" : "dogs and cats", 
+	"food" : "steak"
+};
+ var eva = {
+ 	"color" : "hunter green",
+ 	"animal" : "cat",
+ 	"food" : "katsudon"
+ }
+ var robby = {
+	"color" : "blue", 
+	"animal" : "african civet",
+	"food" : "tacos"
+ }
+
+ var people = [ nana, eva, robby ];
+ 
+ console.log(people)
+ console.log(people[0].animal)
+
+var people2 = {
+	"nana" : nana, 
+	"eva" : eva, 
+	"robby" : robby 
+};
+
+console.log(people2);
+console.log(people2.nana.animal);
+
+var people3 = {
+	"nana" : {
+		"color" : "blue", 
+		"animal" : "dogs and cats", 
+		"food" : "steak"
+		}, 
+	"eva" : {
+ 		"color" : "hunter green",
+ 		"animal" : "cat",
+ 		"food" : "katsudon"
+		 }, 
+	"robby" : {
+		"color" : "blue", 
+		"animal" : "african civet",
+		"food" : "tacos"
+		 } 
+}
+
+console.log( nana ); 
+console.log( nana.color );
+console.log( nana["color"]);
+
+</script>
+</body>
+</body>
+</html>

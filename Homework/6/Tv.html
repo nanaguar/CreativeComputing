@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style> 
+
+body{
+	margin: 0;
+	padding: 0;
+	/*width: 100%;
+	height: 100%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("Images/taken.gif");
+	background-repeat: no-repeat; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+}
+
+div.img {
+  background-image: url("taken.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+  }
+
+</style> 
+<body>
+<div class="img"></div>
+
+<script>
+
+
+
+var index = 0; 
+
+var anArray = [ "lop.gif", "tnb.gif", "frozen.gif", "fwb.gif", "american.gif" ]; 
+console.log(anArray);
+
+var path = "url('" + index + "')"; 
+
+// var index = {
+// 	"lop.gif" : lop, 
+// 	"tnb.gif" : tnb, 
+// 	"frozen.gif" : frozen,
+// 	"fwb.gif" : fwb,
+// 	"as.gif" : american 
+// }
+
+console.log(index);
+
+document.body.addEventListener("keydown", function(event){
+	
+	console.log(event.keyCode);
+
+	if(event.keyCode == "38"){
+	}
+	if(event.keyCode == "40"){
+	}
+
+	document.getElementById("img").style.backgroundImage = "url('" + anArray[0]  + "')";
+
+
+});
+
+
+
+
+
+
+
+//	console.log("hello " + shows);
+//}
+
+//aFunction("lop.gif");
+//aFunction("tnb.gif")
+//aFunction("frozen.gif")
+	
+//document.onkeypress = function (event){
+//	console.log(event);
+//	if(keyCode == "40"){
+//		document.getElementById("lop.gif").innerHTML += "<br>";
+//	}
+
+
+
+</script>
+</body>
+</html>

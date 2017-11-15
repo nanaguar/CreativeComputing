@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+	
+	document.body.addEventListener("keydown", function(event){
+		console.log(event);
+	});
+
+</script> 
+</body>
+</html>

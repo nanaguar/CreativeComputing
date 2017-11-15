@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eee;
+}
+#text-area{
+	width:80vmin;
+	height:80vmin;
+	background-color: white;
+	padding:1em;
+}
+</style> 
+</head>
+<body>
+	<div id="text-area"></div>
+<script>
+
+	document.body.addEventListener("keydown", function(event)){
+		console.log(event);
+	});
+
+//He will send line that is equivelent to the line underneath but works the up and down arrows 
+	document.onkeypress = function (event){
+	console.log(event);
+	if(event.key == "Enter"){
+		document.getElementById("text-area").innerHTML += "<br>";
+	}
+	//else{
+		//document.getElementById("text-area").innerHTML += event.key;
+	//}
+
+	if(event.key != "Enter"){
+		document.getElementById("text-area").innerHTML += event.key;
+	}
+	if(event.key == "\\"){
+		document.getElementById("text-area").innerHTML = "";
+	}
+
+}
+
+</script>
+</body>
+</html>
